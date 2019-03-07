@@ -1,0 +1,12 @@
+{
+	"selenium":[
+		{
+			"Open Browser":"openBrowser"
+		}
+	],
+	"appium":[
+		{
+			"Open App":"openApp"
+		}
+	]
+}
