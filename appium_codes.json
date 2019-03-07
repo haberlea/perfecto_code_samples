@@ -1,6 +1,7 @@
 {
 	"openApp":{
-		"java" : "driver.launch();",
+		"codeComment":"Launch application",
+		"java" : "driver.launchApp();",
 		"ruby" : "",
 		"js": "",
 		"c#": "",
