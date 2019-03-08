@@ -1,20 +1,11 @@
 {
 	"openApp":{
 		"codeComment":"Launch application",
-		"java" : "driver.launchApp();",
-		"ruby" : "",
-		"js": "",
-		"c#": "",
-		"python":"",
-		"existingArticles":[]
-	},
-	"findElement":{
-		"codeComment":"Find an Element",
-		"java" : "driver.findElement(By.id(\"element_id\"));",
-		"ruby" : "",
-		"js": "",
-		"c#": "",
-		"python":"",
+		"java" : [{"code":"driver.launchApp();"}],
+		"ruby" : [{}],
+		"js": [{}],
+		"c#": [{}],
+		"python":[{}],
 		"existingArticles":[]
 	}
 }
