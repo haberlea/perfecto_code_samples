@@ -9,7 +9,12 @@
 		"existingArticles":[]
 	},"findElement":{
 		"codeComment":"Find an Element",
-		"java" : [{"code":"driver.findElement(\"id\");","comment":"Find an Element by ID"}],
+		"java" : [
+			{"code":"driver.findElement(By.id(\"id\");",
+			"comment":"Find an Element by ID"},
+			{"code":"driver.findElement(By.xpath(\"xpath\");",
+			"comment":"Find an Element by xpath"}
+		],
 		"ruby" : [{}],
 		"js": [{}],
 		"c#": [{}],
