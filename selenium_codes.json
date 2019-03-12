@@ -1,11 +1,11 @@
 {
 	"getTitle":{
 		"codeComment":"Get Title of current Page",
-		"java" : "driver.getTitle();",
-		"ruby" : "",
-		"js": "",
-		"c#": "",
-		"python":"",
+		"java" : [{"code":"driver.getTitle();"}],
+		"ruby" : [{}],
+		"js": [{}],
+		"c#": [{}],
+		"python":[{}],
 		"existingArticles":[]
 	}
 }
