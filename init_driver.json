@@ -1,0 +1,23 @@
+{
+	"appium":{
+		"java":["DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
+				"desiredCapabilities.setCapability(\"platformName\", \"Windows\");"
+			],
+		"ruby" : [""],
+		"js": [""],
+		"c#": [""],
+		"python":[""]
+	},"selenium":{
+		"java":[""],
+		"ruby" : [""],
+		"js": [""],
+		"c#": [""],
+		"python":[""]
+	},"perfecto":{
+		"java":[""],
+		"ruby" : [""],
+		"js": [""],
+		"c#": [""],
+		"python":[""]
+	}
+}
