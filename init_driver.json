@@ -2,7 +2,7 @@
 	"appium":{
 		"java":["DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
 				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
-				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");"
+				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");",
 				"// Following capability selects Android device other acceptable option is iOS for iOS device.",
 				"desiredCapabilities.setCapability(\"platformName\", \"Android\");",
 				"// Following capability selects Android device with OS version 7 and above. Regular expression is accepted.",
@@ -26,7 +26,7 @@
 	},"selenium":{
 		"java":["DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
 				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
-				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");"
+				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");",
 				"// Following capability selects VM based on OS. Acceptable options is Windows and Mac.",
 				"desiredCapabilities.setCapability(\"platformName\", \"Windows\");",
 				"// Following capability selects VM based on OS version.",
@@ -41,7 +41,8 @@
 				"capabilities.setCapability(\"browserVersion\", \"latest\");",
 				"// ============== Initialize Driver =================",
 				"// Provide your cloud's URL",
-				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"<cloudURL>\"), desiredCapabilities);"],
+				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"<cloudURL>\"), desiredCapabilities);"
+			],
 		"ruby" : [""],
 		"js": [""],
 		"c#": [""],
