@@ -15,6 +15,7 @@
 				"// Following capability selects specific device by device name. DEVICE_IDENTIFIER For iOS - UDID and Android - Device ID.",
 				"// If deviceName is used, we don't require platformVersion and platformName.",
 				"capabilities.setCapability(\"deviceName\", \"&lt;DEVICE_IDENTIFIER&gt;\");",
+				"&nbsp;",
 				"// ============== Initialize Driver =================",
 				"// Provide your cloud's URL",
 				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
@@ -41,6 +42,7 @@
 				"// Following capability selects browser by version.",
 				"// Use latest for latest version of browser. Please check your cloud for upto date options.",
 				"capabilities.setCapability(\"browserVersion\", \"latest\");",
+				"&nbsp;",
 				"// ============== Initialize Driver =================",
 				"// Provide your cloud's URL",
 				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
