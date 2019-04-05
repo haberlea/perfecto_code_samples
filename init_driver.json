@@ -3,7 +3,7 @@
 		"java":["// ============== Initialize Desired Capabilities =================",
 				"DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
 				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
-				"desiredCapabilities.setCapability(\"securityToken\", \"&lt;securityToken\");",
+				"desiredCapabilities.setCapability(\"securityToken\", \"&lt;securityToken&gt;\");",
 				"// Following capability selects Android device other acceptable option is iOS for iOS device.",
 				"desiredCapabilities.setCapability(\"platformName\", \"Android\");",
 				"// Following capability selects Android device with OS version 7 and above. Regular expression is accepted.",
