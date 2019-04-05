@@ -2,7 +2,8 @@
 	"appium":{
 		"java":["// ============== Initialize Desired Capabilities =================",
 				"DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
-				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
+				"// Following capability provides securityToken to authorize user.",
+				"// TODO Provide your cloud's security token.",
 				"desiredCapabilities.setCapability(\"securityToken\", \"&lt;securityToken&gt;\");",
 				"// Following capability selects Android device other acceptable option is iOS for iOS device.",
 				"desiredCapabilities.setCapability(\"platformName\", \"Android\");",
@@ -15,9 +16,8 @@
 				"// Following capability selects specific device by device name. DEVICE_IDENTIFIER For iOS - UDID and Android - Device ID.",
 				"// If deviceName is used, we don't require platformVersion and platformName.",
 				"capabilities.setCapability(\"deviceName\", \"&lt;DEVICE_IDENTIFIER&gt;\");",
-				"&nbsp;",
 				"// ============== Initialize Driver =================",
-				"// Provide your cloud's URL",
+				"// TODO Provide your cloud's URL",
 				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
 
 			],
@@ -28,7 +28,8 @@
 	},"selenium":{
 		"java":["// ============== Initialize Desired Capabilities =================",
 				"DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
-				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
+				"// Following capability provides securityToken to authorize user.",
+				"// TODO Provide your cloud's security token.",
 				"desiredCapabilities.setCapability(\"securityToken\", \"&lt;securityToken&gt;\");",
 				"// Following capability selects VM based on OS. Acceptable options is Windows and Mac.",
 				"desiredCapabilities.setCapability(\"platformName\", \"Windows\");",
@@ -42,9 +43,8 @@
 				"// Following capability selects browser by version.",
 				"// Use latest for latest version of browser. Please check your cloud for upto date options.",
 				"capabilities.setCapability(\"browserVersion\", \"latest\");",
-				"&nbsp;",
 				"// ============== Initialize Driver =================",
-				"// Provide your cloud's URL",
+				"// TODO Provide your cloud's URL",
 				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
 			],
 		"ruby" : [""],
