@@ -1,14 +1,47 @@
 {
 	"appium":{
 		"java":["DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
-				"desiredCapabilities.setCapability(\"platformName\", \"Windows\");"
+				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
+				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");"
+				"// Following capability selects Android device other acceptable option is iOS for iOS device.",
+				"desiredCapabilities.setCapability(\"platformName\", \"Android\");",
+				"// Following capability selects Android device with OS version 7 and above. Regular expression is accepted.",
+				"// To select iOS device with OS version 11 and greater, you can use regular expression - 11.*",
+				"capabilities.setCapability(\"platformVersion\", \"7.*\");",
+				"// Following capability selects Android device by model - a Galaxy device. Regular expression is accepted.",
+				"// To select iOS device with model - say an iPhone, you can use regular expression - iPhone.*",
+				"capabilities.setCapability(\"model\", \"Galaxy.*\");",
+				"// Following capability selects specific device by device name. DEVICE_IDENTIFIER For iOS - UDID and Android - Device ID.",
+				"// If deviceName is used, we don't require platformVersion and platformName.",
+				"capabilities.setCapability(\"deviceName\", \"<DEVICE_IDENTIFIER>\");",
+				"// ============== Initialize Driver =================",
+				"// Provide your cloud's URL",
+				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"<cloudURL>\"), desiredCapabilities);"
+
 			],
 		"ruby" : [""],
 		"js": [""],
 		"c#": [""],
 		"python":[""]
 	},"selenium":{
-		"java":[""],
+		"java":["DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
+				"// Following capability provides securityToken to authorize user. Provide your cloud's security token.",
+				"desiredCapabilities.setCapability(\"securityToken\", \"<securityToken>\");"
+				"// Following capability selects VM based on OS. Acceptable options is Windows and Mac.",
+				"desiredCapabilities.setCapability(\"platformName\", \"Windows\");",
+				"// Following capability selects VM based on OS version.",
+				"// Acceptable options for Windows - 10,8.1 and 7. Please check your cloud for upto date options.",
+				"// Acceptable options for Mac - macOS High Sierra, OS X El Capitan Please check your cloud for upto date options.",
+				"capabilities.setCapability(\"platformVersion\", \"8.*\");",
+				"// Following capability selects browser by name.",
+				"// Acceptable options Chrome, Firefox and Safari",
+				"capabilities.setCapability(\"browserName\", \"Chrome\");",
+				"// Following capability selects browser by version.",
+				"// Use latest for latest version of browser. Please check your cloud for upto date options.",
+				"capabilities.setCapability(\"browserVersion\", \"latest\");",
+				"// ============== Initialize Driver =================",
+				"// Provide your cloud's URL",
+				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"<cloudURL>\"), desiredCapabilities);"],
 		"ruby" : [""],
 		"js": [""],
 		"c#": [""],
