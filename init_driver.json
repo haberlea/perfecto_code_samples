@@ -43,7 +43,7 @@
 				"// ============== Initialize Driver =================",
 				"// TODO Provide your cloud's URL",
 				"host = \"<cloudURL>\"",
-				"PerfectoLabUtils.set_execution_id_capability(capabilities, host)",
+				"PerfectoLabUtils.set_execution_id_capability(capabilities, host)"
 			  ]
 	},"selenium":{
 		"java":["// ============== Initialize Desired Capabilities =================",
