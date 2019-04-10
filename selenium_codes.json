@@ -1,7 +1,7 @@
 {
 	"getTitle":{
 		"codeComment":"Get Title of current Page",
-		"java" : [{"code":"driver.getTitle();"}],
+		"java" : [{"code":"String titile = driver.getTitle();"}],
 		"ruby" : [{}],
 		"js": [{}],
 		"c#": [{}],
