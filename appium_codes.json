@@ -14,7 +14,7 @@
 			"comment":"Find an Element by ID"},
 			{"code":"driver.findElement(By.xpath(\"xpath\");",
 			"comment":"Find an Element by xpath"},
-			{"code":"driver.get("URL\");",
+			{"code":"driver.get(\"URL\");",
 			"comment":"enter your URL"},
 		],
 		"ruby" : [{}],
