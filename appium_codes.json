@@ -5,7 +5,7 @@
 		"ruby" : [{}],
 		"js": [{}],
 		"c#": [{}],
-		"python":[{}],
+		"python":[{"code":"self.driver.launch_app()"}],
 		"existingArticles":[]
 	},"findElement":{
 		"codeComment":"Find an Element",
@@ -18,7 +18,12 @@
 		"ruby" : [{}],
 		"js": [{}],
 		"c#": [{}],
-		"python":[{}],
+		"python":[
+			{"code":"self.driver.find_element_by_xpath(\"xpath\");",
+			"comment":"Find an Element by XPath"},
+			{"code":"self.driver.find_elements_by_id(\"id\");",
+			"comment":"Find an Element by ID"}
+		],
 		"existingArticles":[]
 	}
 }
