@@ -42,9 +42,8 @@
 				"capabilities['deviceName']=\"<DEVICE_IDENTIFIER>\"",
 				"// ============== Initialize Driver =================",
 				"// TODO Provide your cloud's URL",
-				"host = \"<cloudURL>\"",
-				"PerfectoLabUtils.set_execution_id_capability(capabilities, host)"
-			  ]
+			  	"driver = webdriver.Remote(\"&lt;cloudURL&gt;\", capabilities)"
+			 ]
 	},"selenium":{
 		"java":["// ============== Initialize Desired Capabilities =================",
 				"DesiredCapabilities desiredCapabilities = new DesiredCapabilities();",
@@ -89,8 +88,7 @@
 				"capabilities['browserVersion']=\"latest\"",
 				"// ============== Initialize Driver =================",
 				"// TODO Provide your cloud's URL",
-				"host = \"&lt;cloudURL&gt;\"",
-				"PerfectoLabUtils.set_execution_id_capability(capabilities, host)"
+			  	"driver = webdriver.Remote(\"&lt;cloudURL&gt;\", capabilities)"
 			 ]
 	},"perfecto":{
 		"java":[""],
