@@ -1,4 +1,5 @@
 {
 	"Open App":"openApp",
-	"Find an Element":"findElement"
+	"Find an Element":"findElement",
+	"Navigate to URL":"get"
 }
